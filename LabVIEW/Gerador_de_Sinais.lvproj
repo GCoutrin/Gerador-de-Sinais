@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="varPersistentID:{2E172E9B-69E3-475F-A5E6-08B3E2E203E6}" Type="Ref">/My Computer/Variáveis Globais.lvlib/Adquirir</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -12,6 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="acquire.vi" Type="VI" URL="../acquire.vi"/>
 		<Item Name="add or sub waveforms.vi" Type="VI" URL="../add or sub waveforms.vi"/>
+		<Item Name="amp e offset control.vi" Type="VI" URL="../amp e offset control.vi"/>
+		<Item Name="aquisicao.vi" Type="VI" URL="../aquisicao.vi"/>
 		<Item Name="date &amp; time path generator.vi" Type="VI" URL="../date &amp; time path generator.vi"/>
 		<Item Name="deleta trecho de onda.vi" Type="VI" URL="../deleta trecho de onda.vi"/>
 		<Item Name="enum.ctl" Type="VI" URL="../enum.ctl"/>
@@ -19,6 +22,7 @@
 		<Item Name="State Machine com string.vi" Type="VI" URL="../../../State Machine com string.vi"/>
 		<Item Name="teste.vi" Type="VI" URL="../teste.vi"/>
 		<Item Name="trapezoidal.vi" Type="VI" URL="../trapezoidal.vi"/>
+		<Item Name="Variáveis Globais.lvlib" Type="Library" URL="../../Variáveis Globais.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name=" Write Waveform to File (Digital).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/ Write Waveform to File (Digital).vi"/>
@@ -26,6 +30,7 @@
 				<Item Name=" Write Waveforms to File (1D).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/ Write Waveforms to File (1D).vi"/>
 				<Item Name=" Write Waveforms to File (2D).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/ Write Waveforms to File (2D).vi"/>
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
