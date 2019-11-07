@@ -17,6 +17,7 @@
 		<Item Name="date &amp; time path generator.vi" Type="VI" URL="../date &amp; time path generator.vi"/>
 		<Item Name="deleta trecho de onda.vi" Type="VI" URL="../deleta trecho de onda.vi"/>
 		<Item Name="enum.ctl" Type="VI" URL="../enum.ctl"/>
+		<Item Name="forma_de_onda.ctl" Type="VI" URL="../forma_de_onda.ctl"/>
 		<Item Name="Gerador_de_Sinais.vi" Type="VI" URL="../Gerador_de_Sinais.vi"/>
 		<Item Name="State Machine com string.vi" Type="VI" URL="../../../State Machine com string.vi"/>
 		<Item Name="teste.vi" Type="VI" URL="../teste.vi"/>
