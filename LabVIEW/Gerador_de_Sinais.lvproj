@@ -11,16 +11,32 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Support VIs" Type="Folder">
+			<Item Name="Message Queue" Type="Folder">
+				<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
+			</Item>
+			<Item Name="User Event - Stop" Type="Folder">
+				<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
+			</Item>
+			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
+			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
+			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+		</Item>
 		<Item Name="acquire.vi" Type="VI" URL="../acquire.vi"/>
 		<Item Name="add or sub waveforms.vi" Type="VI" URL="../add or sub waveforms.vi"/>
 		<Item Name="amp &amp; offset control.vi" Type="VI" URL="../amp &amp; offset control.vi"/>
+		<Item Name="Cluster aux.ctl" Type="VI" URL="../Cluster aux.ctl"/>
 		<Item Name="date &amp; time path generator.vi" Type="VI" URL="../date &amp; time path generator.vi"/>
 		<Item Name="deleta trecho de onda.vi" Type="VI" URL="../deleta trecho de onda.vi"/>
+		<Item Name="Dente.ctl" Type="VI" URL="../Dente.ctl"/>
 		<Item Name="enum.ctl" Type="VI" URL="../enum.ctl"/>
 		<Item Name="forma_de_onda.ctl" Type="VI" URL="../forma_de_onda.ctl"/>
 		<Item Name="Gerador_de_Sinais.vi" Type="VI" URL="../Gerador_de_Sinais.vi"/>
+		<Item Name="Quad.ctl" Type="VI" URL="../Quad.ctl"/>
+		<Item Name="Seno.ctl" Type="VI" URL="../Seno.ctl"/>
 		<Item Name="State Machine com string.vi" Type="VI" URL="../../../State Machine com string.vi"/>
 		<Item Name="teste.vi" Type="VI" URL="../teste.vi"/>
+		<Item Name="to variant array.vi" Type="VI" URL="../to variant array.vi"/>
 		<Item Name="trapezoidal.vi" Type="VI" URL="../trapezoidal.vi"/>
 		<Item Name="Variáveis Globais.lvlib" Type="Library" URL="../../Variáveis Globais.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
