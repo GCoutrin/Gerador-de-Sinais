@@ -37,7 +37,9 @@
 		<Item Name="State Machine com string.vi" Type="VI" URL="../../../State Machine com string.vi"/>
 		<Item Name="teste.vi" Type="VI" URL="../teste.vi"/>
 		<Item Name="to variant array.vi" Type="VI" URL="../to variant array.vi"/>
+		<Item Name="Trap.ctl" Type="VI" URL="../Trap.ctl"/>
 		<Item Name="trapezoidal.vi" Type="VI" URL="../trapezoidal.vi"/>
+		<Item Name="Triang.ctl" Type="VI" URL="../Triang.ctl"/>
 		<Item Name="Variáveis Globais.lvlib" Type="Library" URL="../../Variáveis Globais.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
