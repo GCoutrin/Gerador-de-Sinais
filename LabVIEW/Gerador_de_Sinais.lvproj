@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="varPersistentID:{2E172E9B-69E3-475F-A5E6-08B3E2E203E6}" Type="Ref">/My Computer/Variáveis Globais.lvlib/Adquirir</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -22,25 +23,40 @@
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
+		<Item Name="Quad JKI.ctl" Type="VI" URL="../Quad JKI.ctl"/>
 		<Item Name="acquire.vi" Type="VI" URL="../acquire.vi"/>
 		<Item Name="add or sub waveforms.vi" Type="VI" URL="../add or sub waveforms.vi"/>
 		<Item Name="amp &amp; offset control.vi" Type="VI" URL="../amp &amp; offset control.vi"/>
 		<Item Name="Cluster aux.ctl" Type="VI" URL="../Cluster aux.ctl"/>
 		<Item Name="date &amp; time path generator.vi" Type="VI" URL="../date &amp; time path generator.vi"/>
 		<Item Name="deleta trecho de onda.vi" Type="VI" URL="../deleta trecho de onda.vi"/>
+		<Item Name="delete.ctl" Type="VI" URL="../delete.ctl"/>
 		<Item Name="Dente.ctl" Type="VI" URL="../Dente.ctl"/>
+		<Item Name="empty string subs.vi" Type="VI" URL="../empty string subs.vi"/>
 		<Item Name="enum.ctl" Type="VI" URL="../enum.ctl"/>
 		<Item Name="forma_de_onda.ctl" Type="VI" URL="../forma_de_onda.ctl"/>
 		<Item Name="Gerador_de_Sinais.vi" Type="VI" URL="../Gerador_de_Sinais.vi"/>
-		<Item Name="Quad.ctl" Type="VI" URL="../Quad.ctl"/>
 		<Item Name="Seno.ctl" Type="VI" URL="../Seno.ctl"/>
 		<Item Name="State Machine com string.vi" Type="VI" URL="../../../State Machine com string.vi"/>
+		<Item Name="Stop red.ctl" Type="VI" URL="../Stop red.ctl"/>
+		<Item Name="Quad.ctl" Type="VI" URL="../Quad.ctl"/>
 		<Item Name="teste.vi" Type="VI" URL="../teste.vi"/>
 		<Item Name="to variant array.vi" Type="VI" URL="../to variant array.vi"/>
 		<Item Name="Trap.ctl" Type="VI" URL="../Trap.ctl"/>
 		<Item Name="trapezoidal.vi" Type="VI" URL="../trapezoidal.vi"/>
 		<Item Name="Triang.ctl" Type="VI" URL="../Triang.ctl"/>
+		<Item Name="Seno JKI.ctl" Type="VI" URL="../Seno JKI.ctl"/>
 		<Item Name="Variáveis Globais.lvlib" Type="Library" URL="../../Variáveis Globais.lvlib"/>
+		<Item Name="Triang JKI.ctl" Type="VI" URL="../Triang JKI.ctl"/>
+		<Item Name="Trap JKI.ctl" Type="VI" URL="../Trap JKI.ctl"/>
+		<Item Name="Dente JKI.ctl" Type="VI" URL="../Dente JKI.ctl"/>
+		<Item Name="Num JKI.ctl" Type="VI" URL="../Num JKI.ctl"/>
+		<Item Name="Gerar JKI.ctl" Type="VI" URL="../Gerar JKI.ctl"/>
+		<Item Name="Path JKI.ctl" Type="VI" URL="../Path JKI.ctl"/>
+		<Item Name="Onda Gerada.ctl" Type="VI" URL="../Onda Gerada.ctl"/>
+		<Item Name="Onda Editada.ctl" Type="VI" URL="../Onda Editada.ctl"/>
+		<Item Name="Salvar JKI.ctl" Type="VI" URL="../Salvar JKI.ctl"/>
+		<Item Name="Adquirir JKI.ctl" Type="VI" URL="../Adquirir JKI.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name=" Write Waveform to File (Digital).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/ Write Waveform to File (Digital).vi"/>
